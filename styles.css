@@ -77,5 +77,39 @@
     font-size: 18px;
     font-weight: 600;
     margin-top: 25px;
+}
 
+.second-section {
+    padding: 20px 7rem 20px;
+}
+
+.second-section-header {
+    color: var(--textblack);
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.second-section-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.element-image {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.element1 {
+    margin: 10px;
+    padding: 100px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.element-text {
+    text-align: center;
 }
