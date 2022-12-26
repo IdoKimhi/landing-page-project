@@ -1,31 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
 :root {
-    --darkblue: #1F2937; 
     --lightblue: #3882F6;
-    --lightgrey: #E5E7Eb;
-}
-* {
-    box-sizing:border-box;
-    padding:0;
-    margin:0;
+    --darkblue: #1F2937;
+    --textwhite: #F9FAF8;
+    --textblack: #1F2937;
+    --darkgrey: #E5E7EB;
 }
 
-body {
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
 .first-section {
     background-color: var(--darkblue);
-    color:white;
-    padding:5em;
 }
 
 .navbar-container {
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 40px;
+    color:var(--textwhite);
+    padding:10px 10rem 7rem;
+    font-size:18px;
 }
 
 .navbar-logo {
@@ -33,42 +33,49 @@ body {
     font-weight: bold;
 }
 
+
 .navbar-links {
-    display: flex;
+    display:flex;
+    gap:20px;
+    align-items: center;
     justify-content: space-between;
     list-style: none;
-    gap: 10px
+    font-size: 18px;
+    color: var(--darkgrey);
 }
 
-.first-section-content > h1 {
-    font-size: 48px;
-    font-weight: 800;
-    color: #F9FAF8;
+.first-section-content {
+    padding: 0 10rem 7rem;
+    color: var(--textwhite);
+    display: flex;
+    gap: 60px;
+    
 }
 
-.first-section-content > p {
-    font-size: 24px;
-    color: #E5E7EB;
+.hero-text-container > h1 {
+    font-size:48px;
+    font-weight: bolder;
 }
 
-.sign-up-button-1 {
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: none;
-    background-color: var(--lightblue);
-    color: white;
+.hero-text-container > P {
+    font-size: 18px;
 }
 
 .image-placeholder {
-    display:flex;
-    background-color: grey;
-    color:white;
-    height: 200px;
-    width: 400px;
-    align-items: center;
-    justify-content: center;
+    background-color: var(--darkgrey);
+    height: 400px;
+    width: 600px;
 }
 
-/* TODO
-/* add two containers to the first sections (one for text and one for an image)
-/* fix general margins and padding */
+.sign-up-button-1 {
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    color: var(--textwhite);
+    background-color: var(--lightblue);
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 25px;
+
+}
