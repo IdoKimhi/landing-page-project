@@ -125,3 +125,24 @@
     text-align: end;
     font-weight: bold;
 }
+
+.fourth-section {
+    padding: 5rem 10rem 7rem;
+}
+.call-to-action-container {
+    color: white;
+    background-color: var(--lightblue);
+    border-radius: 15px;
+    padding: 2em;
+    
+
+}
+
+.sign-up-button-2 {
+    color: white;
+    background-color: var(--lightblue);
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 100%;
+    margin-right: 0;
+}
