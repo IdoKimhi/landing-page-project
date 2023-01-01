@@ -88,28 +88,24 @@
     font-size: 36px;
     font-weight: bolder;
     text-align: center;
+    margin-bottom: 5rem;
 }
 
 .second-section-container {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
-.element-image {
-    border: 2px solid black;
-    height: 200px;
-    width: 200px;
+.gallery-element {
+    margin: 5px;
+    border: 3px solid blue;
+    height: 100px;
+    width: 100px;
     border-radius: 15px;
 }
 
-.element1 {
-    margin: 10px;
-    padding: 100px;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.element-text {
-    text-align: center;
+.gallery-text {
+    margin-top: 100%;
 }
